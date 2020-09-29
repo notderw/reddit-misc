@@ -6,7 +6,7 @@ notify a subreddit when a post was editied after a mod approved it
 
 Create a "script" app [here](https://old.reddit.com/prefs/apps/)
 
-User [this tool](https://not-an-aardvark.github.io/reddit-oauth-helper/) to generate your oauth tokens.
+Use [this tool](https://not-an-aardvark.github.io/reddit-oauth-helper/) to generate your oauth tokens.
 Make sure you check the following: `Permanent`, `identity`, `modposts`, `privatemessages`, `read`
 
 Create a `praw.ini` file as described [here](https://praw.readthedocs.io/en/latest/getting_started/configuration/prawini.html), specifically [this section](https://praw.readthedocs.io/en/latest/getting_started/configuration/prawini.html#defining-additional-sites)
